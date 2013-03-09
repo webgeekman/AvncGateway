@@ -1,0 +1,172 @@
+2013-03-10 00:01:09,291 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]; startup date [Sun Mar 10 00:01:09 CST 2013]; root of context hierarchy
+2013-03-10 00:01:09,337 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:01:09,473 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40
+2013-03-10 00:01:09,514 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:01:09,530 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:01:09,584 INFO  [default] [------------网关初始化开始------------]
+2013-03-10 00:01:09,620 INFO  [default] [------------VgListener初始化开始------------]
+2013-03-10 00:01:09,824 INFO  [default] [------------VgListener初始化完成------------]
+2013-03-10 00:01:10,037 INFO  [default] [------------网关初始化完毕------------]
+2013-03-10 00:02:24,246 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]; startup date [Sun Mar 10 00:02:24 CST 2013]; root of context hierarchy
+2013-03-10 00:02:24,288 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:02:24,420 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@23abcc03
+2013-03-10 00:02:24,458 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:02:24,473 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@23abcc03: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:02:24,528 INFO  [default] [------------网关初始化......------------]
+2013-03-10 00:02:24,531 INFO  [default] [------------VgListener启动......------------]
+2013-03-10 00:02:24,603 INFO  [default] [------------VgListener已启动------------]
+2013-03-10 00:02:24,823 INFO  [default] [------------网关已启动------------]
+2013-03-10 00:03:46,005 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74b23210: display name [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]; startup date [Sun Mar 10 00:03:46 CST 2013]; root of context hierarchy
+2013-03-10 00:03:46,047 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:03:46,187 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]: org.springframework.beans.factory.support.DefaultListableBeanFactory@783c342b
+2013-03-10 00:03:46,226 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:03:46,240 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@783c342b: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:03:46,290 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:03:46,292 INFO  [default] [##########VgListener启动......##########]
+2013-03-10 00:03:46,360 INFO  [default] [##########VgListener已启动##########]
+2013-03-10 00:03:46,584 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:05:21,981 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd]; startup date [Sun Mar 10 00:05:21 CST 2013]; root of context hierarchy
+2013-03-10 00:05:22,030 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:05:22,171 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd]: org.springframework.beans.factory.support.DefaultListableBeanFactory@388530b8
+2013-03-10 00:05:22,211 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:05:22,229 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@388530b8: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:05:22,285 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:05:22,287 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:05:22,361 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:05:22,585 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:07:14,907 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74b23210: display name [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]; startup date [Sun Mar 10 00:07:14 CST 2013]; root of context hierarchy
+2013-03-10 00:07:14,952 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:07:15,095 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]: org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40
+2013-03-10 00:07:15,134 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:07:15,149 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:07:15,200 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:07:15,204 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:07:15,275 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:07:15,275 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:07:15,276 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:07:15,499 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:15:04,986 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd]; startup date [Sun Mar 10 00:15:04 CST 2013]; root of context hierarchy
+2013-03-10 00:15:05,032 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:15:05,169 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd]: org.springframework.beans.factory.support.DefaultListableBeanFactory@72c743eb
+2013-03-10 00:15:05,211 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:15:05,227 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@72c743eb: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:15:05,284 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:15:05,287 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:15:05,358 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:15:05,359 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:15:05,360 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:15:05,581 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:22:06,153 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74b23210: display name [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]; startup date [Sun Mar 10 00:22:06 CST 2013]; root of context hierarchy
+2013-03-10 00:22:06,202 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:22:06,339 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]: org.springframework.beans.factory.support.DefaultListableBeanFactory@388530b8
+2013-03-10 00:22:06,380 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:22:06,398 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@388530b8: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:22:06,451 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:22:06,454 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:22:06,531 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:22:06,531 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:22:06,532 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:22:07,222 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:26:21,109 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]; startup date [Sun Mar 10 00:26:21 CST 2013]; root of context hierarchy
+2013-03-10 00:26:21,151 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:26:21,289 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3acafb56
+2013-03-10 00:26:21,327 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:26:21,341 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3acafb56: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:26:21,392 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:26:21,394 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:26:21,469 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:26:21,469 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:26:21,470 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:26:22,115 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:26:40,044 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74b23210: display name [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]; startup date [Sun Mar 10 00:26:40 CST 2013]; root of context hierarchy
+2013-03-10 00:26:40,086 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:26:40,228 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]: org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40
+2013-03-10 00:26:40,263 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:26:40,280 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:26:40,331 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:26:40,333 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:26:40,410 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:26:40,410 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:26:40,411 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:26:41,023 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:27:22,814 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]; startup date [Sun Mar 10 00:27:22 CST 2013]; root of context hierarchy
+2013-03-10 00:27:22,860 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:27:22,996 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40
+2013-03-10 00:27:23,036 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:27:23,051 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:27:23,103 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:27:23,105 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:27:23,174 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:27:23,175 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:27:23,177 ERROR [default] Permission denied
+2013-03-10 00:27:23,177 INFO  [default] [------------------------网关启动失败------------------------]
+2013-03-10 00:30:15,533 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd]; startup date [Sun Mar 10 00:30:15 CST 2013]; root of context hierarchy
+2013-03-10 00:30:15,577 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:30:15,718 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd]: org.springframework.beans.factory.support.DefaultListableBeanFactory@23abcc03
+2013-03-10 00:30:15,762 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:30:15,782 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@23abcc03: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:30:15,843 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:30:15,845 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:30:15,923 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:30:15,923 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:30:15,925 ERROR [default] Permission denied
+2013-03-10 00:30:15,925 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:30:16,543 INFO  [default] [##########Listener Vg3 启动失败##########]
+2013-03-10 00:30:16,543 INFO  [default] [------------------------网关启动失败------------------------]
+2013-03-10 00:30:50,028 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74b23210: display name [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]; startup date [Sun Mar 10 00:30:50 CST 2013]; root of context hierarchy
+2013-03-10 00:30:50,073 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:30:50,216 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]: org.springframework.beans.factory.support.DefaultListableBeanFactory@72c743eb
+2013-03-10 00:30:50,253 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:30:50,269 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@72c743eb: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:30:50,324 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:30:50,328 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:30:50,400 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:30:50,400 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:30:50,401 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:30:51,019 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:31:08,440 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74b23210: display name [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]; startup date [Sun Mar 10 00:31:08 CST 2013]; root of context hierarchy
+2013-03-10 00:31:08,487 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:31:08,626 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]: org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40
+2013-03-10 00:31:08,662 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:31:08,677 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63deeb40: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:31:08,732 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:31:08,734 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:31:08,802 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:31:08,803 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:31:08,805 ERROR [default] Permission denied
+2013-03-10 00:31:08,805 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:31:09,422 INFO  [default] [##########Listener Vg3 启动失败##########]
+2013-03-10 00:31:09,422 INFO  [default] [------------------------网关启动失败------------------------]
+2013-03-10 00:31:38,916 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]; startup date [Sun Mar 10 00:31:38 CST 2013]; root of context hierarchy
+2013-03-10 00:31:38,965 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:31:39,097 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5ef4f44a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@23abcc03
+2013-03-10 00:31:39,134 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:31:39,151 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@23abcc03: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:31:39,199 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:31:39,201 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:31:39,278 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:31:39,279 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:31:39,280 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:31:39,890 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:32:37,839 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd]; startup date [Sun Mar 10 00:32:37 CST 2013]; root of context hierarchy
+2013-03-10 00:32:37,881 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:32:38,017 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5557c2bd]: org.springframework.beans.factory.support.DefaultListableBeanFactory@30419d05
+2013-03-10 00:32:38,057 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:32:38,071 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@30419d05: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:32:38,125 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:32:38,127 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:32:38,197 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:32:38,198 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:32:38,198 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:32:38,815 INFO  [default] [------------------------网关已启动------------------------]
+2013-03-10 00:32:41,549 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74b23210: display name [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]; startup date [Sun Mar 10 00:32:41 CST 2013]; root of context hierarchy
+2013-03-10 00:32:41,599 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-03-10 00:32:41,736 INFO  [ClassPathXmlApplicationContext] Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@74b23210]: org.springframework.beans.factory.support.DefaultListableBeanFactory@72c743eb
+2013-03-10 00:32:41,775 INFO  [PropertyPlaceholderConfigurer] Loading properties file from class path resource [jdbc.properties]
+2013-03-10 00:32:41,790 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@72c743eb: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,TerminalInfoDao]; root of factory hierarchy
+2013-03-10 00:32:41,839 INFO  [default] [------------------------网关初始化......------------------------]
+2013-03-10 00:32:41,841 INFO  [default] [##########Listener Vg启动......##########]
+2013-03-10 00:32:41,915 INFO  [default] [##########Listener Vg已启动##########]
+2013-03-10 00:32:41,915 INFO  [default] [##########Listener Vg3启动......##########]
+2013-03-10 00:32:41,916 INFO  [default] [##########Listener Vg3已启动##########]
+2013-03-10 00:32:42,539 INFO  [default] [------------------------网关已启动------------------------]

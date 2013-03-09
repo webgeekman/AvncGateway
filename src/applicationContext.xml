@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:tx="http://www.springframework.org/schema/tx" 
+    xmlns:aop="http://www.springframework.org/schema/aop" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd  
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd  
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd  
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+  <!-- 载入JDBC配置文件 -->
+    <bean
+    class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <property name="locations">
+            <list>
+                <value>jdbc.properties</value>
+            </list>
+    </property>
+  </bean>
+  
+  <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+    <property name="driverClassName" value="${driverClassName}"></property>
+    <property name="url" value="${url}"></property>
+    <property name="username" value="${username}"></property>
+    <property name="password" value="${password}"></property>
+    <!-- 连接池启动时的初始值 -->
+    <property name="initialSize" value="${initialSize}"></property>
+    <!-- 连接池的最大值 -->
+    <property name="maxActive" value="${maxActive}"></property>
+    <!-- 最大空间值、当经过一个高峰时间后，连接池可以慢慢将已经用不到的连接慢慢释放一部分，直至减少的maxIdle为止 -->
+    <property name="maxIdle" value="${maxIdle}"></property>
+    <!-- 最小空间值，当空间的连接数少于阀值时，连接池就会预申请一些连接，以免洪峰来时 来不及申请 -->
+    <property name="minIdle" value="${minIdle}"></property>
+  </bean>
+  <!-- 事物处理 -->
+  <bean id="txManager"
+    class="org.springframework.jdbc.datasource.DataSourceTransactionManager"
+    abstract="false" lazy-init="default" dependency-check="default">
+    <property name="dataSource">
+      <ref bean="dataSource" />
+    </property>
+  </bean>
+  <tx:annotation-driven transaction-manager="txManager" />
+  <bean id="TerminalInfoDao" class="com.neusoft.avnc.gateway.db.impl.TerminalInfoDaoImpl">
+    <property name="dataSource" ref="dataSource" />
+  </bean>
+</beans>

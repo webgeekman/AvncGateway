@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	<!-- 全部日志 -->
+	<appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/debug_all.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	<!-- 业务系统心跳链路维护日志 -->
+	<appender name="HeartbeatBusinessSysAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/heartbeat_business_sys.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	<!-- 终端心跳链路维护日志 -->
+	<appender name="HeartbeatTerminalAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/heartbeat_terminal.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	<!-- 来自业务系统的消息日志 -->
+	<appender name="MsgFromBusinessSystemAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/msg_from_business_system.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	<!-- 发送至业务系统的消息日志 -->
+	<appender name="MsgToBusinessSystemAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/msg_to_business_system.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	<!-- 来自终端的业务消息日志 -->
+	<appender name="MsgFromTerminalAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/msg_from_terminal.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	<!-- 发送至终端的业务消息日志 -->
+	<appender name="MsgToTerminalAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/msg_to_terminal.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	<!-- 数据库操作日志 -->
+	<appender name="DBFileAppender" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/db.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.log'" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+	
+	<!-- 业务系统心跳链路维护日志 -->
+	<logger name="businessSystemHeartbeat">
+		<level value="debug" />
+		<appender-ref ref="HeartbeatBusinessSysAppender" />
+	</logger>
+	
+	<!-- 终端心跳链路维护日志 -->
+	<logger name="terminalHeartbeat">
+		<level value="debug" />
+		<appender-ref ref="HeartbeatTerminalAppender" />
+	</logger>
+
+	<logger name="default">
+		<level value="debug" />
+		<appender-ref ref="DefaultConnectAppender" />
+	</logger>
+	
+	<!-- 数据库操作日志 -->
+	<logger name="dbLog">
+		<level value="debug" />
+		<appender-ref ref="DBFileAppender" />
+	</logger>
+	<!-- 来自业务系统消息日志 -->
+	<logger name="msgFromBusinessSystemLog">
+		<level value="debug"/>
+		<appender-ref ref="MsgFromBusinessSystemAppender"/>
+	</logger>
+	<!-- 发送至业务系统消息日志 -->
+	<logger name="msgToBusinessSystemLog">
+		<level value="debug"/>
+		<appender-ref ref="MsgToBusinessSystemAppender"/>
+	</logger>
+	<!-- 来自终端消息日志 -->
+	<logger name="msgFromTerminalLog">
+		<level value="debug"/>
+		<appender-ref ref="MsgFromTerminalAppender"/>
+	</logger>
+	<!-- 发送至终端消息日志 -->
+	<logger name="msgToTerminalLog">
+		<level value="debug"/>
+		<appender-ref ref="MsgToTerminalAppender"/>
+	</logger>
+	<root>
+		<level value="info" />
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="FILE" />
+	</root>
+</log4j:configuration>
